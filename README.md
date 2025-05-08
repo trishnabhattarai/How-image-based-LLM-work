@@ -170,6 +170,6 @@ thats why tools like kaggle provide you virtual GPU memory to train your AI mode
 
 
 ### Don't you think patches effect the output of the VLM?
-👉 - Yes, Patches effect the output of the VLM because more patches means more information for VLM to understand the image.<br>
-   - Like more token means more information to understand the user requirement to generate text.<br>
-   - It means 'High patches means high accuracy of image generation'.
+ - Yes, Patches effect the output of the VLM because more patches means more information for VLM to understand the image.<br>
+ - Like more token means more information to understand the user requirement to generate text.<br>
+ - It means 'High patches means high accuracy of image generation'.
