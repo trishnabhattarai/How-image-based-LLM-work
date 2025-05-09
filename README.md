@@ -16,7 +16,8 @@ To understand this article, Now we need to know:
 ![Screenshot 2025-05-08 222811](https://github.com/user-attachments/assets/c140f3e6-b898-4637-be4f-72816daeeb1d)
 
 ### Is pixels has similar use case as sub tokens has?
-- Now if you remember, You need to have one question in your mind i.e. in LLM we learned the concept of subtoken is used when LLM need to understand the meaning of complex or unseen word
+- Now if you remember, You need to have one question in your mind i.e. in LLM we learned the concept of subtoken is used when LLM need to understand the meaning of complex or unseen 
+  word.
    - But in VLM, The concept of pixels are not used to understand the strcture or color of the complex image.
 
 ### What if VLM see new image that isn't avaliable in his dataset is there any backup plain like subtokens in LLM?
