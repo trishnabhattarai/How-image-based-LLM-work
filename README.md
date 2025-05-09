@@ -1,4 +1,4 @@
-# 🧠 How-image-based-LLM-work?
+# 🧠 How-image-based-VLM-work?
 In the previous article, we learned how text-based LLMs work.
 
 👉 If you haven’t read it yet, check it out here: [https://github.com/trishnabhattarai/how-does-text-based-LLM-work] under Readme file.
