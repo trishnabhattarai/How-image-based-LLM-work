@@ -13,6 +13,8 @@ To understand this article, Now we need to know:
    - Remember the length and width of square patches are fixed during training of the model. It doesn't depend upon the size of image.
    - Now, VLM identify the color and shape that patches contain.
 
+![Screenshot 2025-05-08 222811](https://github.com/user-attachments/assets/c140f3e6-b898-4637-be4f-72816daeeb1d)
+
 ### Is pixels has similar use case as sub tokens has?
 - Now if you remember, You need to have one question in your mind i.e. in LLM we learned the concept of subtoken is used when LLM need to understand the meaning of complex or unseen word
    - But in VLM, The concept of pixels are not used to understand the strcture or color of the complex image.
@@ -31,7 +33,9 @@ To understand this article, Now we need to know:
 - The location of  object is determined by using mathematical concept like sin and cosine.
 - Every position and color of object in a image is different so, the vector number are always unique.
 
-  
+![Linear Projection Layer_ - visual selection](https://github.com/user-attachments/assets/de77e3f8-78db-48c4-8899-1d3e6cc7ef3b)
+
+
 ### CLS Token:
 In this step, When user upload his/ her image in VLM then CLS token is created where all the information of the image or patches has been stored in vector form like which patch contain 
 which shapes or color etc.
@@ -42,7 +46,7 @@ which shapes or color etc.
 - Self Attention Layer helps VLM to compare the patches and identify which patch is the another part of patch.
 - Feed- Forward Layer helps self attention layer to have deep research according to the information stored in CLS token.
 - The patches which has less difference in vector number are considered as highly related to each other like this transformer can known the relation between patches.
-
+![Transformer (Neural Network)_ - visual selection](https://github.com/user-attachments/assets/001e3381-744a-4734-9275-d65392c44e02)
 
 ## 4. Positional Encoding:
 - Images are 2D model so position of each patch matter.
@@ -50,9 +54,14 @@ which shapes or color etc.
 - Positional Encoding will automatically identify the position of patch as it use mathmatical concept like sin and cosin with which it will automatically detect the position of patch.
 - Remember, Vector number is generated according to the position of the patch so by the help of this vector number Positional Encoding automatically detect the position of patch.
 
+![Positional Encoding_ - visual selection](https://github.com/user-attachments/assets/101c549a-9eec-4c27-9e1a-0fbdedb4edc9)
+
+
 ## 5. Binary Conversion:
 - Now, The vector numbers are converted into binary number where numbers are represented in 0 and 1 form.
 - Each o and 1 represent 1 bit.
+
+![Binary Conversion_ - visual selection](https://github.com/user-attachments/assets/27b0a730-b912-4bd3-ac6c-d14a89981bcf)
 
 ### Do you know why we need more memory to train this type of AI model?
 - Now your answer will be probabily: Because we train AI model on various data set so it take much memory.
